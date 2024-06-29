@@ -1,0 +1,239 @@
+@charset "UTF-8"
+
+@font-face{
+    font-family: 'mi';
+    src:url(idroid.otf)  format('opentype');
+}
+
+h1{
+    color: #063d1e;
+}
+
+h2{
+    font-family:'mi' ;
+}
+:root{
+ --cor0:#ebe5c5;
+ --cor1:#83e1ad;
+ --cor2:#3ddc84;
+ --cor3:#2fa866;
+ --cor4:#1a5c37;
+ --cor5:#063d1e;
+ 
+ --fonte-padrao:arial,verdana, helvetica, sans-serif;
+ --fonte-destaque: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
+ --fonte-android: 'mi', cursive;
+}
+
+body {
+    font-family: var(--fonte-padrao);
+
+}
+
+header{
+
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-image: linear-gradient(to bottom, var(--cor3),var(--cor5));
+  min-height: 140px;
+  text-align: center;
+  padding-top: 50px;
+
+}
+header p {
+    margin-top: 15px;
+font-family: Arial, Helvetica, sans-serif;
+font-style: italic;
+font-size: 17px;
+max-width: 600px;
+padding-right: 10px;
+padding-left: 10px;
+margin: auto;
+
+}
+
+main h2{
+    background-image: linear-gradient(to right, var(--cor3), transparent);
+}
+
+main h1{
+    font-size:1.7em;
+    margin-inline: 10 px;
+}
+header>h1{
+    color: white;
+    font-size: 3em;
+    text-shadow: -1px 2px 6px black;
+}
+
+p{
+    font-size: small;
+    font-weight: 200;
+}
+
+main{
+    background-color: white;
+    max-width: 1000px;
+    min-width: 200px;
+    margin-bottom: 30px;
+    margin: auto;
+    padding: 17px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.377);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main p{
+    margin: 12px 0px;
+    text-align: justify;
+    text-indent: 25px;
+    line-height: 2em;
+}
+nav{
+    background-color: var(--cor5);
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.329);
+}
+
+footer{
+    background-image: linear-gradient(to right, var(--cor3), var(--cor5));
+    margin-top:20px ;text-align: center;
+    font-weight: 400;
+color: rgba(255, 255, 255, 0.76);
+
+}
+
+footer a {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: white;
+    background-color: transparent;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: small;
+    padding: 10px;
+    border-radius: 5px;
+    transition-duration: .3s;
+    
+
+
+}
+
+a:hover{
+    background-color: var(--cor3);
+    color: var(--cor5);
+
+}
+
+a::after{
+    content:☠j jjjjj ;
+}
+
+    main img{
+        width:100% ;
+    }
+    #kauan img{
+        max-width: 350px;
+        display: block;
+        margin: auto;
+        
+
+    }
+
+     main strong{
+        background-color: #3ddc8580;
+        padding: 2px 5px;
+        font-weight: 700;
+        border-radius: 4px;
+     }
+
+        main  a{
+            font-weight: 700;
+            color: #3ddc84;
+            text-decoration: none;
+        }
+     main a:hover{
+        text-decoration: underline;
+        background-color:#3ddc856b;
+        color: black;
+        padding: 2px 2px;
+     }
+     aside{
+        background-color:var(--cor2);
+        padding: 5px 8px;
+        border-radius: 5px 5px 20px 20px ;
+        box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.527);
+     }
+
+     aside ul {
+        list-style: none;
+        columns: 2;
+     }
+    aside p {
+        line-height:16px ;
+    }
+.lista{
+    font-weight: 600;
+    font-size: 14px;
+}
+.lista a {
+    color: black;
+    text-decoration: underline;
+}
+
+aside > h3{
+    background-color: #063d1e;
+    color: white;
+    margin: -10px -8px 0px -8px;
+    padding: 5px;
+    border-radius: 10px 10px 0px 0px ;
+}
+.saidera{
+    font-weight: 600;
+}
+
+.lista a:hover{
+    color: white;
+}
+    a.fora::after {
+        content:'\00A0\1F517' ;
+
+        font-size:10px;
+    }
+
+      div.vidio > iframe {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        width: 90%;
+        height: 90%;
+      }
+        
+        div.vidio{
+            background-color: #063d1e;
+            margin: 0px -20px 30px -20px;
+            padding: 20px;
+            padding-bottom: 58%;
+            position: relative;
+        }
+    
